@@ -8,12 +8,13 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   title = 'smart-tables';
-  settings = {
+    settings = {
     delete: {
       confirmDelete: true,
+
       deleteButtonContent: 'Delete data',
-      saveButtonContent: 'Save',
-      cancelButtonContent: 'Cancel'
+      saveButtonContent: 'save',
+      cancelButtonContent: 'cancel'
     },
     add: {
       confirmCreate: true,
@@ -34,10 +35,6 @@ export class AppComponent {
       email: {
         title: 'Email',
       },
-      
-      attr: {
-        class: 'table table-bordered'
-      }
     },
   };
 
