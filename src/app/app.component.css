@@ -1,5 +1,12 @@
 h3{
 	text-align: center;
 	font-size: 28px;
-	color: blue;
+	color:#3db1e1;
+}
+:host /deep/ tr,th {
+background-color: #87CEEB;
+text-align:center;
+border: 3px solid black;
+width: 100%;
+height: 50px;
 }
