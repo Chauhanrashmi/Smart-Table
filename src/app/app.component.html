@@ -1,7 +1,8 @@
 <div class = "button-row">
-    <button mat-button>Login</button>
-    <button mat-button>Register</button>
+    <button routerLink="/login" mat-button>Login</button>
+    <button routerLink="/register" mat-button>Register</button>
     <div class="user">
-        <button mat-fab>Users</button>
+        <button routerLink="/show-users" mat-fab>Users</button>
     </div>
 </div>
+<router-outlet></router-outlet>
